@@ -5,7 +5,7 @@ date: "2/17/2020"
 output: html_document
 ---
   
-**Helsel and Hirsh Textbook**
+#Helsel and Hirsh Textbook
   
   #Q3.1 Compute both nonparametric and parametric 95% interval estimates for the median of the granodiorite data of exercise 2.3. Which is more appropriate for these data? Why?
   
@@ -66,7 +66,7 @@ hist(gran)
 #Nonparmetric is preferable because data is small and non-normal (histogram). Also, for this the interval is wider than parametric interval which means there are more chances that median will be present in that interval.
 
 
-Q3.4 Construct the most appropriate 95 percent interval estimates for the mean and median annual streamflows for the Conecuh River at Brantley, Alabama (data in Appendix C2).
+#Q3.4 Construct the most appropriate 95 percent interval estimates for the mean and median annual streamflows for the Conecuh River at Brantley, Alabama (data in Appendix C2).
 
 
 library(tidyverse)
