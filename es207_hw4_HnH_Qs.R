@@ -86,7 +86,13 @@ hist(crdata$`Flow (cfs)`)
 
 
 #Interval esrimates for mean
-
+# meaninteval <- function(dataset, alpha){
+#   len = length(dataset)
+#   me = qt((1-alpha),(len-1))*sd(dataset)/sqrt(len)
+#   low <- mean(dataset)-me
+#   up <- mean(dataset)+me
+#   cat("The lower boundary is", low,", and the upper boundary is", up)
+# }
 lo_flow <- mean(crdata$`Flow (cfs)`) - 2*(sd(crdata$`Flow (cfs)`))
 up_flow <- mean(crdata$`Flow (cfs)`) + 2*(sd(crdata$`Flow (cfs)`))
 
